@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+    background-color: aqua;
+}
+
+main{
+    background-color: red;
+    text-align: center;
+}
+
+p{
+    color: grey;
+}

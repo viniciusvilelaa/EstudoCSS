@@ -1,0 +1,127 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+.vermelho {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+#teste {
+    background-color: aqua;
+
+    font-size: 1.5rem;
+}
+
+* {
+    padding: 5px;
+}
+
+
+.exampleBac {
+    background-color: #3a2c2c;
+    padding: 20px;
+    margin-top: 50px;
+    height: 300px;
+    background-image: url(../img/IMG_8259.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-left: 30px solid #000;
+    border-right: 30px solid #ee1414;
+    border-top: 30px solid #147aee;
+    border-bottom: 30px solid #9dff00;
+    border-radius: 10px;
+
+}
+
+
+p {
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 50px;
+    line-height: 1.5rem;
+    word-spacing: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+
+h1{
+    font-family: 'Agdasima', sans-serif;
+    font-style: italic;
+    
+}
+
+a.botao1{
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a.botao1:hover{
+    background: rgb(3, 255, 3);
+    color: white;
+    padding: 15px;
+    
+    
+}
+
+a.botao2{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    color: #147aee;
+}
+
+a.botao2:hover{
+    text-decoration: line-through;
+    background-color: red;
+}
+*/
+
+
+
+
+
+.borda {
+    border: 2px solid black;
+}
+
+p {
+    /*display: inline;*/
+}
+
+#p1{
+    display: none;
+}
+
+li{
+    display: inline-block;
+    height: 100px;
+
+    width: 400px;
+}
+
+.green{
+    background-color: green;
+    
+}
+
+.red{
+    
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.yellow:hover{
+    
+    visibility: hidden;
+}
+
