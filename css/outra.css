@@ -100,10 +100,9 @@ p {
 }
 
 li{
-    display: inline-block;
-    height: 100px;
-
-    width: 400px;
+    display: block;
+    height: 150px;
+    max-width: 1080px;
 }
 
 .green{

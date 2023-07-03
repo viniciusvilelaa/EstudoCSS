@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
+}
+
+.container img{
+    float: left;
+    margin-right: 10px;
+    height: 400px;
+}
+
+ul{
+    background-color: black;
+    padding: 20PX;
+
+}
+
+li{
+    display: inline-block;
+    /*position: relative;
+    left: 70%;*/
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.login{
+    float: right;
+    
+}
