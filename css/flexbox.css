@@ -1,15 +1,93 @@
-.flex-pai{
-    background: blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+*{
+    box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*.flex-pai{
+    background: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+
+
 .flex-pai div{
+    flex-grow: 1;
     background: white;
     border: 1px solid black;
     margin: 20px;
     padding: 30px;
     text-align: center;
+}*/
+
+
+.header{
+    background: greenyellow;
+    padding: 80px;
+    text-align: center;
 }
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background: grey;
+    color: black;
+    font-weight: bolder;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    flex: 48%;
+    background: #ccc;
+    height: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
