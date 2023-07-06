@@ -1,0 +1,15 @@
+.flex-pai{
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.flex-pai div{
+    background: white;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
